@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <title>Sazón de Finca</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand text-primary fw-bold fs-3" href="index.html">Sazón de Finca</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Productos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            Información
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="blog.html">Blog</a></li>
+                            <li><a class="dropdown-item" href="index.html#ubication">Ubicación</a></li>
+                            <li><a class="dropdown-item" href="imageGallery.html">Galeria de imagenes</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="autor.html">Autor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#sendEmail">Contáctenos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO DEL BLOG -->
+    <header class="blog-hero">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold text-white">Blog de la Finca</h1>
+            <p class="text-white mt-3">Historias, consejos y experiencias desde el corazón del campo</p>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- SECCIÓN PRINCIPAL DE BLOG -->
+        <section class="blog-list-section py-5">
+            <div class="container">
+
+                <div class="row mb-5 text-center">
+                    <h2 class="fw-bold text-primary">Últimas Publicaciones</h2>
+                    <p class="text-muted">Recetas, tradición y aprendizajes que queremos compartir con vos.</p>
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- ARTÍCULO 1 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-card">
+                            <img src="img/chilera.jpeg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <span class="blog-tag">Recetas</span>
+                                <h4 class="blog-title">El secreto detrás de nuestra chilera artesanal</h4>
+                                <p class="blog-text">Desde el picor exacto hasta el vinagre correcto: así logramos el
+                                    sabor perfecto.</p>
+                                <a href="#" class="blog-link">Leer más <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ARTÍCULO 2 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-card">
+                            <img src="img/finca.jpeg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <span class="blog-tag">Cultura</span>
+                                <h4 class="blog-title">Cómo la finca nos enseñó a valorar lo natural</h4>
+                                <p class="blog-text">Trabajar la tierra es aprender cada día. Te contamos por qué.</p>
+                                <a href="#" class="blog-link">Leer más <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ARTÍCULO 3 -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-card">
+                            <img src="img/vegetalesfrescos.jpeg" class="blog-img" alt="">
+                            <div class="blog-body">
+                                <span class="blog-tag">Ingredientes</span>
+                                <h4 class="blog-title">Los vegetales más frescos: nuestro proceso de selección</h4>
+                                <p class="blog-text">De la tierra a tu mesa: así escogemos lo mejor para vos.</p>
+                                <a href="#" class="blog-link">Leer más <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- TESTIMONIOS -->
+        <section class="testimonials-section py-5">
+            <div class="container">
+
+                <div class="row mb-5 text-center">
+                    <h2 class="fw-bold text-primary">Experiencias de Nuestros Clientes</h2>
+                    <p class="text-muted">Opiniones reales de quienes disfrutan nuestros productos.</p>
+                </div>
+
+                <!-- Contenedor dinámico de testimonios -->
+                <div class="row g-4" id="testimonios-container">
+                    <!-- Los testimonios se cargarán aquí desde JavaScript -->
+                </div>
+
+                <!-- Botones de control -->
+                <div class="row mt-4">
+                    <div class="col-12 text-center">
+                        <button id="btn-ver-mas" class="btn btn-primary btn-lg px-5 me-2" onclick="verMasTestimonios()">
+                            Ver más testimonios <i class="bi bi-arrow-down ms-2"></i>
+                        </button>
+                        <button id="btn-ocultar" class="btn btn-outline-primary btn-lg px-5"
+                            onclick="ocultarTestimonios()" style="display: none;">
+                            Ocultar testimonios <i class="bi bi-arrow-up ms-2"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+ <!--Carrito de compras start-->
+    <button class="btn btn-cart-float" onclick="toggleCarrito()">
+        <i class="bi bi-cart3"></i>
+        <span class="badge" id="cart-count" style="display: none;">0</span>
+    </button>
+
+    <div class="modal fade" id="carritoModal" tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="bi bi-cart3 me-2"></i>Mi Carrito
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div id="carrito-vacio" style="display: none;">
+                        <i class="bi bi-cart-x"></i>
+                        <p>Tu carrito está vacío</p>
+                        <a href="products.html" class="btn btn-primary">Ver productos</a>
+                    </div>
+
+                    <div id="carrito-contenido">
+                        <div id="carrito-items"></div>
+                    </div>
+                </div>
+
+                <div class="modal-footer" id="carrito-footer">
+                    <div class="w-100">
+                        <div class="d-flex justify-content-between mb-3">
+                            <h5>Total:</h5>
+                            <h4 id="carrito-total">¢0</h4>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-outline-danger" onclick="vaciarCarrito()">
+                                <i class="bi bi-trash"></i> Vaciar
+                            </button>
+                            <button class="btn btn-success flex-grow-1" onclick="enviarAWhatsApp()">
+                                <i class="bi bi-whatsapp"></i> Enviar por WhatsApp
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Carrito de compras end-->
+
+    <!-- FOOTER -->
+    <footer class="footer" id="contact">
+        <div class="container p-3">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h1 class="fw-bold text-primary mb-4">Sazón de Finca</h1>
+                    <p class="text-light">Productos artesanales frescos, hechos en Costa Rica.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h4 class="text-primary">Dirección</h4>
+                    <p class="text-light"><i class="bi bi-geo-alt me-2"></i>Sarapiquí, Heredia, CR</p>
+                    <p class="text-light"><i class="bi bi-telephone me-2"></i>+506 7299 4595</p>
+                    <p class="text-light"><i class="bi bi-envelope me-2"></i>sdfinca@gmail.com</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h4 class="text-primary mb-3">Síguenos</h4>
+                    <div class="social-links mb-4">
+                        <a href="https://www.facebook.com/share/1AfQSZKgy3/?mibextid=wwXIfr" target="_blank"
+                            class="social-link">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://instagram.com/sdfinca" target="_blank" class="social-link">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/50672994595" target="_blank" class="social-link">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-light fw-light fs-6 fst-italic text-center mt-3">
+                Sazón de Finca © 2025, Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+    <!--  Script start -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/testimonials.js"></script>
+    <script src="js/cart.js"></script>
+
+</body>
+
+</html>

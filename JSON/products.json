@@ -1,0 +1,103 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Chilera de Potrero",
+      "presentacion": "250 ml",
+      "precio": 3000,
+      "imagen": "img/chilera.jpeg",
+      "descripcion": "Chilera artesanal llena de sabor tradicional."
+    },
+    {
+      "id": 2,
+      "nombre": "Rompope Santa Clara",
+      "presentacion": "450 ml",
+      "precio": 2550,
+      "imagen": "img/rompope.jpeg",
+      "descripcion": "Rompope artesanal con receta familiar."
+    },
+    {
+      "id": 3,
+      "nombre": "Borracho Santa Claus",
+      "presentacion": "650 g",
+      "precio": 6300,
+      "imagen": "img/BorrachoSantaClara.jpeg",
+      "descripcion": "Delicioso pastel borracho navideño."
+    },
+    {
+      "id": 4,
+      "nombre": "Escabeche Sazón",
+      "presentacion": "300 g",
+      "precio": 2525,
+      "imagen": "img/carrusel2.jpeg",
+      "descripcion": "Escabeche artesanal hecho con vegetales frescos."
+    },
+    {
+      "id": 5,
+      "nombre": "Chile Toro Bravo",
+      "presentacion": "150 ml",
+      "tipo": "Picante Fuerte",
+      "precio": 3750,
+      "imagen": "img/chileToroBravo.jpeg",
+      "descripcion": "Salsa picante de intensidad fuerte."
+    },
+    {
+      "id": 6,
+      "nombre": "Chile Camino de Finca",
+      "presentacion": "120 ml",
+      "tipo": "Picante Medio",
+      "precio": 2800,
+      "imagen": "img/chileCaminoFinca.jpeg",
+      "descripcion": "Salsa picante de intensidad media."
+    },
+    {
+      "id": 7,
+      "nombre": "Chile Brisa de Campo",
+      "presentacion": "100 ml",
+      "tipo": "Picante Leve",
+      "precio": 2350,
+      "imagen": "img/chileBrisaCampo.jpeg",
+      "descripcion": "Salsa picante suave y llena de sabor."
+    },
+    {
+      "id": 8,
+      "nombre": "Pepinillos de Corral",
+      "presentacion": "300 g",
+      "precio": 2150,
+      "imagen": "img/pepinillosCorral.jpeg",
+      "descripcion": "Pepinillos encurtidos frescos."
+    },
+    {
+      "id": 9,
+      "nombre": "Pan de Banano de la Abuela",
+      "presentacion": "600 g",
+      "precio": 4000,
+      "imagen": "img/panBanano.jpeg",
+      "descripcion": "Pan casero de banano con receta tradicional."
+    },
+    {
+      "id": 10,
+      "nombre": "Vinagreta Dorada",
+      "presentacion": "250 ml",
+      "precio": 2900,
+      "imagen": "img/vinagreta.jpeg",
+      "descripcion": "Vinagreta artesanal ideal para ensaladas."
+    },
+    {
+      "id": 11,
+      "nombre": "Cebolla Encurtida de la Montaña",
+      "presentacion": "300 g",
+      "precio": 2000,
+      "imagen": "img/cebollaEncurtida.jpeg",
+      "descripcion": "Cebolla encurtida artesanal."
+    },
+    {
+      "id": 12,
+      "nombre": "Palmitos Corazón de Finca",
+      "presentacion": "350 ml",
+      "precio": 1900,
+      "imagen": "img/palmitoReserva.jpeg",
+      "descripcion": "Palmitos cosechados y preparados artesanalmente."
+    }
+  ]
+}

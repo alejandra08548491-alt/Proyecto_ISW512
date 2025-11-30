@@ -1,0 +1,88 @@
+{
+  "testimonios": [
+    {
+      "id": 1,
+      "nombre": "Andrea Gómez",
+      "opinion": "La chilera tiene un sabor increíble, perfecto balance entre picante y sabor. No falta en mi cocina.",
+      "producto": "Chilera de Potrero",
+      "calificacion": 5
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Ruiz",
+      "opinion": "El rompope es espectacular, lo compré para Navidad y todos preguntaron dónde lo conseguí.",
+      "producto": "Rompope Santa Clara",
+      "calificacion": 5
+    },
+    {
+      "id": 3,
+      "nombre": "Paola Salazar",
+      "opinion": "La dedicación de la familia se nota en cada producto. Todo sabe auténtico, fresco y delicioso.",
+      "producto": "General",
+      "calificacion": 5
+    },
+    {
+      "id": 4,
+      "nombre": "Miguel Ángel Castro",
+      "opinion": "El escabeche me recuerda a los que hacía mi abuela. Vegetales frescos y ese toque casero que uno busca.",
+      "producto": "Escabeche Sazón",
+      "calificacion": 5
+    },
+    {
+      "id": 5,
+      "nombre": "Daniela Mora",
+      "opinion": "El pan de banano está delicioso, suave y con el punto perfecto de dulce. Ideal para el café de la tarde.",
+      "producto": "Pan de Banano de la Abuela",
+      "calificacion": 5
+    },
+    {
+      "id": 6,
+      "nombre": "Roberto Jiménez",
+      "opinion": "Los pepinillos están crujientes y con muy buen sabor. Los uso para todo, desde hamburguesas hasta bocadillos.",
+      "producto": "Pepinillos de Corral",
+      "calificacion": 5
+    },
+    {
+      "id": 7,
+      "nombre": "Sofía Vargas",
+      "opinion": "Me encanta que sean productos sin químicos. Se siente la diferencia en cada bocado.",
+      "producto": "General",
+      "calificacion": 5
+    },
+    {
+      "id": 8,
+      "nombre": "Luis Fernando Chaves",
+      "opinion": "El Chile Toro Bravo es perfecto para los que amamos el picante de verdad. Intenso y sabroso.",
+      "producto": "Chile Toro Bravo",
+      "calificacion": 5
+    },
+    {
+      "id": 9,
+      "nombre": "María José Brenes",
+      "opinion": "La vinagreta dorada le da un toque especial a mis ensaladas. Muy recomendada.",
+      "producto": "Vinagreta Dorada",
+      "calificacion": 5
+    },
+    {
+      "id": 10,
+      "nombre": "Eduardo Solano",
+      "opinion": "Excelente atención y productos de calidad. He probado varios y todos están buenísimos.",
+      "producto": "General",
+      "calificacion": 5
+    },
+    {
+      "id": 11,
+      "nombre": "Gabriela Rojas",
+      "opinion": "El borracho navideño es tradición en mi casa ahora. Cada año lo espero con ansias.",
+      "producto": "Borracho Santa Claus",
+      "calificacion": 5
+    },
+    {
+      "id": 12,
+      "nombre": "José Pablo Méndez",
+      "opinion": "Los palmitos están fresquísimos. Se nota que los preparan con cuidado y dedicación.",
+      "producto": "Palmitos Corazón de Finca",
+      "calificacion": 5
+    }
+  ]
+}

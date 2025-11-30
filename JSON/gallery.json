@@ -1,0 +1,99 @@
+{
+  "imagenes": [
+    {
+      "id": 1,
+      "src": "img/autor1.jpeg",
+      "titulo": "Autor del Proyecto"
+    },
+    {
+      "id": 2,
+      "src": "img/BorrachoSantaClara.jpeg",
+      "titulo": "Borracho Santa Clara"
+    },
+    {
+      "id": 3,
+      "src": "img/carrusel1.jpg",
+      "titulo": "Productos Artesanales"
+    },
+    {
+      "id": 4,
+      "src": "img/carrusel2.jpeg",
+      "titulo": "Escabeche Tradicional"
+    },
+    {
+      "id": 5,
+      "src": "img/carrusel3.jpeg",
+      "titulo": "Finca en Sarapiquí"
+    },
+    {
+      "id": 6,
+      "src": "img/carrusel4.jpeg",
+      "titulo": "Campo Costarricense"
+    },
+    {
+      "id": 7,
+      "src": "img/chileBrisaCampo.jpeg",
+      "titulo": "Chile Brisa de Campo"
+    },
+    {
+      "id": 8,
+      "src": "img/chileCaminoFinca.jpeg",
+      "titulo": "Chile Camino de Finca"
+    },
+    {
+      "id": 9,
+      "src": "img/chilera.jpeg",
+      "titulo": "Chilera de Potrero"
+    },
+    {
+      "id": 10,
+      "src": "img/chileToroBravo.jpeg",
+      "titulo": "Chile Toro Bravo"
+    },
+    {
+      "id": 11,
+      "src": "img/finca.jpeg",
+      "titulo": "Nuestra Finca"
+    },
+    {
+      "id": 12,
+      "src": "img/icon.jpeg",
+      "titulo": "Logo Sazón de Finca"
+    },
+    {
+      "id": 13,
+      "src": "img/pepinillosCorral.jpeg",
+      "titulo": "Pepinillos de Corral"
+    },
+    {
+      "id": 14,
+      "src": "img/rompope.jpeg",
+      "titulo": "Rompope Santa Clara"
+    },
+    {
+      "id": 15,
+      "src": "img/vegetalesfrescos.jpeg",
+      "titulo": "Vegetales Frescos"
+    },
+    {
+      "id": 16,
+      "src": "img/palmitoReserva.jpeg",
+      "titulo": "Palmito Reserva"
+    },
+    {
+      "id": 17,
+      "src": "img/panBanano.jpeg",
+      "titulo": "Pan de Banano"
+    },
+    {
+      "id": 18,
+      "src": "img/cebollaEncurtida.jpeg",
+      "titulo": "Cebolla Encurtida"
+    },
+    {
+      "id": 19,
+      "src": "img/vinagreta.jpeg",
+      "titulo": "Vinagreta Dorada"
+    }
+  ]
+}
