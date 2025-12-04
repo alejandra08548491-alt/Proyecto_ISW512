@@ -198,24 +198,21 @@
         </section>
         <!--Ubication test end-->
 
-       <!-- Sección de clima start -->
+        <!--Seccion de clima start-->
         <div class="d-flex justify-content-center my-4">
-            <div id="weather-widget" class="weather-card bg-light shadow-sm text-center p-4">
-
-            <div class="weather-header mb-3">
-                <i id="weather-icon" class="icon-weather d-block mb-2"></i>
-                <h4 class="text-primary fw-bold">Clima alrededor de Sazón de Finca</h4>
+            <div id="weather-widget" class="weather-card bg-light shadow-sm">
+                <div class="weather-header">
+                    <i class="fas fa-cloud-sun icon-weather"></i>
+                    <h4 class="text-primary">Clima alrededor de Sazón de Finca</h4>
+                </div>
+                <div class="weather-body">
+                    <h3 id="weather-temp" class="temp">--°C</h3>
+                    <p id="weather-desc" class="desc text-secondary">Cargando...</p>
+                    <p id="weather-location" class="location text-dark"></p>
+                </div>
             </div>
-
-            <div class="weather-body">
-                <h3 id="weather-temp" class="temp fw-bold mb-2">--°C</h3>
-                <p id="weather-desc" class="desc text-secondary mb-1">Cargando...</p>
-                <p id="weather-location" class="location text-dark"></p>
-            </div>
-    </div>
-</div>
-<!-- Sección de clima end -->
-
+        </div>
+        <!--Seccion de clima end-->
 
     </header>
 
