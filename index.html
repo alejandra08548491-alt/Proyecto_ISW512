@@ -23,6 +23,7 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUxcBxVwUAXMHymqKvEJO_RH-9dlSj0gI&callback=initMap&libraries=&v=weekly"
         defer></script>
 
+
     <!--JQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -176,7 +177,7 @@
                     </div>
                 </div>
                 <!--Video section end-->
-                
+
             </div>
         </section>
         <!--Nuestra Historia End-->
@@ -196,6 +197,22 @@
             </div>
         </section>
         <!--Ubication test end-->
+
+        <!--Seccion de clima start-->
+        <div class="d-flex justify-content-center my-4">
+            <div id="weather-widget" class="weather-card bg-light shadow-sm">
+                <div class="weather-header">
+                    <i class="fas fa-cloud-sun icon-weather"></i>
+                    <h4 class="text-primary">Clima alrededor de Sazón de Finca</h4>
+                </div>
+                <div class="weather-body">
+                    <h3 id="weather-temp" class="temp">--°C</h3>
+                    <p id="weather-desc" class="desc text-secondary">Cargando...</p>
+                    <p id="weather-location" class="location text-dark"></p>
+                </div>
+            </div>
+        </div>
+        <!--Seccion de clima end-->
 
     </header>
 
@@ -283,8 +300,9 @@
                                 onclick="return calcularEdad()">Enviar Mensaje</button>
                         </div>
 
-                        <input type="hidden" name="_next" value="https://alejandra08548491-alt.github.io/Proyecto_ISW512/">  
-                     
+                        <input type="hidden" name="_next"
+                            value="https://alejandra08548491-alt.github.io/Proyecto_ISW512/">
+
                         <input type="hidden" name="_captcha" value="false">
                     </form>
                 </div>
@@ -292,6 +310,7 @@
         </div>
     </section>
     <!--send email End-->
+
 
     <!--Carrito de compras start-->
     <button class="btn btn-cart-float" onclick="toggleCarrito()">
@@ -394,9 +413,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
+
+    <!-- Google Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB1Srf9JTMwO82lgCbaxMYwoMKihDuTqZg&callback=initMap"
+        async defer>
+        </script>
+
     <script src="js/sendEmail.js"></script>
     <script src="js/cart.js"></script>
     <script src="js/validaciones.js"></script>
+    <script src="js/weather.js"></script>
     <!--Script end-->
 </body>
 
